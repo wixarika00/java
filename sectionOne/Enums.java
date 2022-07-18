@@ -1,4 +1,4 @@
-public class App1 {
+public class Enums {
     
     enum Season {
         SPRING, AUTUMN, SUMMER, WINTER
