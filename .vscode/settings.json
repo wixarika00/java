@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "section one",
-        "sectionOne"
-    ]
+        "sectionOne",
+        "OOP"
+    ],
+    "java.debug.settings.forceBuildBeforeLaunch": false
 }
