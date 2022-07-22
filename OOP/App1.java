@@ -34,5 +34,17 @@ public class App1 {
         for (String s : carsClass.getCars())
             System.out.println(s);
 
+        //list and arrays are mutable objects
+        List<String> actualCars = carsClass.getCars();
+        actualCars.add("BMW");
+        //We do not need to add
+        //carsClass.setCars(actualCars);
+
+        System.out.println();
+
+        for(String s : carsClass.getCars()) 
+            System.out.println(s);
+    
+
     }
 }
